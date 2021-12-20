@@ -1,0 +1,75 @@
+# Experience template
+- layout: left
+  company: OkCredit
+  link: okcredit.in
+  job_title: Software Engineer Intern
+  dates: Feb 2021 - Present
+  quote: >
+   Worked as a part of Payments team on the backend
+  description: | # this will include new lines to allow paragraphs
+    - I am a part of the payments team whose task is to take care of the whole payments done on the platform between merchant and customers.
+    - Worked on building internal tools to improve the efficiency of the teams by reducing the complexity of processes.
+    - Highly involved in the process of setting up a new PSP on our platform.
+    - Added new functionalities in the current codebase to improve functionalities of dependent teams.
+
+    ---
+
+- layout: left
+  company: Crio.do
+  # link: Link to company (optional)
+  job_title: Student Developer
+  dates: Jan 2020 - April 2020
+  quote: >
+   Worked on backend of QBox, QMoney and QCharm
+  description: | # this will include new lines to allow paragraphs
+    **QBox**
+
+    QBox is a secure file-sharing service. It is a customized version of the popularly available VSFTPD server.
+    
+    Major takeaways:
+    - Created pre-installed scripts to run system checks, install and configure QBox.
+    - Developed tools to automatically analyze performance and functionality issues in different versions of QBox.
+
+    Skills Learnt: 
+    <mark>Linux Commands</mark>
+    <mark>OS Concepts</mark>
+    <mark>Networking Concepts</mark>
+    <mark>Network Security</mark>
+
+
+
+    **QMoney**
+
+    QMoney is a visual stock portfolio analyzer. It helps portfolio managers make trade recommendations for their clients.
+    
+    Major takeaways:
+    - Implemented the core logic of the portfolio manager and published it as a library.
+    - Refactored code to add support for multiple stock quote services.
+    - Improved application stability and performance.
+
+    Skills Learnt: 
+    <mark>Java</mark>
+    <mark>REST API</mark>
+    <mark>Jackson</mark>
+    <mark>Interfaces</mark>
+    <mark>Code Refactoring</mark>
+    <mark>Gradle</mark>
+
+
+
+    **QCharm**
+
+    QCharm is an online IDE. Programmers use QCharm to write source code and execute it inside the editor.
+    
+    Major takeaways:
+    - Implemented basic editor features that included: opening a file, navigation, search/replace, cut/copy/paste, undo/redo.
+    - Implemented the same functionality with multiple data structures to understand the effect of design choices on performance.
+    - Improved the performance further by using hybrid data structures and algorithms.
+
+    Skills Learnt: 
+    <mark>Applied DS</mark>
+    <mark>ArrayList</mark>
+    <mark>Naive Search</mark>
+    <mark>String manipulation</mark>
+    <mark>KMP search</mark>
+    <mark>Linked List</mark>

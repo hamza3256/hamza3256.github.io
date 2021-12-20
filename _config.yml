@@ -1,9 +1,6 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
-
-# Content configuration version
-version: 2
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: images/MyProf.jpg
 
 # Personal info
 name: Muhammad Hamza
@@ -46,98 +43,46 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/MyProf.jpg
 about_content: | # this will include new lines to allow paragraphs
+
+
   Hi, my name's Hamza and I'm a computer science graduate from Queen Mary University of London with a 1st class.
-  
+
   As a highly adaptable and competent software engineer, I am proficient in Python, Java, and frontend languages and frameworks (HTML, CSS, JavaScript, React) with varying experiences in MongoDb, Django, MySQL, and C#.
-  
+
   I have a keen interest in software engineering and I'm enthused by the prospect of becoming a part of such a dynamic and stimulating field. I am confident the skills and determination that have brought me success in the past would stand me in good stead for the exciting challenges ahead.
-  
 
-content:
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
 
- - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Queen Mary University of London
-        caption: 2017 - 2020
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+# Education Section
+# education_title: Education #(Use this to override about education section title)
 
- - title: Technical Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: MThree
-        link: mthree.com
-        # link_text: boringcompany.com
-        sub_title: Alumni Software Engineer
-        caption: October 2020 - Present
-        description: # this will include new lines to allow paragraphs
-          layout: list
-          content:
-           - Underwent six weeks training in Full Stack Engineering (Java).
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  **Technical Skills**
 
-      - layout: left
-        title: Freelance
-        # link_text: boringcompany.com
-        sub_title: Software Engineer
-        caption: June 2020 - August 2020
-        description: # this will include new lines to allow paragraphs
-          layout: list
-          content:
-            - Created separate and restricted admin access for inventory management.
-            - Implemented different access levels to handle orders and customer interaction which sped up the payment process by 70%.
-      
- 
-  - title: Personal Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: XBorder
-        link: xborder.herokuapp.com
-        # link_text: Project Website
-        additional_links:
-          - title: hamza3256/xborder
-            icon: fab fa-github
-            url: github.com/hamza3256/xborder
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description:
-          layout: list
-          content:
-            - "Designed and developed a web application for cross‑border transactions as part of my final year project."
-            - Implemented and deployed smart contracts which enables a user to perform transactions using escrow account implementation.
-            - Deployed functions on AWS that fetches live data from Binance using API.
-            - "Technologies used: <mark>Solidity</mark>, Ethereum smart contracts, ReactJS."
- 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - Proficient in <mark>Python</mark>, <mark>Java</mark>, <mark>JavaScript</mark>
+  - Varying experience with <mark>C#</mark>, <mark>React</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>NodeJS</mark>, <mark>HTML/CSS</mark>, <mark>Django</mark>
+  - Experienced with Git, Unity3D, Windows, Linux, Hadoop, Apache Spark
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  **Acheivements**
+  - Achieved top 50 placement in Global Coding Challenge - Credit Suisse (October 2019)
+  - Deputy Principal's Award for academic excellence at Heriot-Watt University (July 2018)
+  - Copper award in Cambridge Chemistry Challenge (June 2015)
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -145,3 +90,17 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
