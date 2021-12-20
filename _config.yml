@@ -83,7 +83,7 @@ content:
         caption: October 2020 - Present
         description: # this will include new lines to allow paragraphs
           layout: list
-          Content:
+          content:
            - Underwent six weeks training in Full Stack Engineering (Java).
 
       - layout: left
@@ -93,7 +93,7 @@ content:
         caption: June 2020 - August 2020
         description: # this will include new lines to allow paragraphs
           layout: list
-          Content:
+          content:
             - Created separate and restricted admin access for inventory management.
             - Implemented different access levels to handle orders and customer interaction which sped up the payment process by 70%.
       
@@ -114,7 +114,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description:
           layout: list
-          Content:
+          content:
             - Designed and developed a web application for cross‑border transactions as part of my final year project.
             - Implemented and deployed smart contracts which enables a user to perform transactions using escrow account implementation.
             - Deployed functions on AWS that fetches live data from Binance using API.
