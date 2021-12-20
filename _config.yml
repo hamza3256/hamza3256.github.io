@@ -115,10 +115,10 @@ content:
         description:
           layout: list
           content:
-            - Designed and developed a web application for cross‑border transactions as part of my final year project.
+            - "Designed and developed a web application for cross‑border transactions as part of my final year project.""
             - Implemented and deployed smart contracts which enables a user to perform transactions using escrow account implementation.
             - Deployed functions on AWS that fetches live data from Binance using API.
-            - Technologies used:/ <mark>Solidity</mark>, Ethereum smart contracts, ReactJS.
+            - "Technologies used: <mark>Solidity</mark>, Ethereum smart contracts, ReactJS."
  
   - title: A Little More About Me
     layout: text
