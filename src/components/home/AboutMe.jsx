@@ -1,6 +1,6 @@
 import React from "react";
 import Pdf from "../../editable-stuff/Resume__Muhammad_Hamza.pdf";
-
+import myProf from "../../editable-stuff/myProf.jpg"
 import axios from "axios";
 
 const pictureLinkRegex = new RegExp(
@@ -39,10 +39,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             {showPic && (
               <img
                 className="border border-secondary rounded-circle"
-                src={profilePicUrl}
+                src={myProf}
                 alt="profilepicture"
-                width={imgSize}
-                height={imgSize}
+               
               />
             )}
           </div>
@@ -54,7 +53,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               <p className="lead text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
-                  href={resume}
+                  href={Pdf}
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
