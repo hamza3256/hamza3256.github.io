@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Muhammad",
   middleName: "",
   lastName: "Hamza",
-  message: " Passionate about changing the world with technology. ",
+  message: " Software Engineer ",
   icons: [
     {
       image: "fa-github",
