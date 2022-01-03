@@ -121,9 +121,9 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contact Me",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I am open to full-time opportunities in Software Engineering. If you have any questions, or just want to say hello, feel free to use the contact form below or my email address: ",
   email: "hamzaquant@gmail.com",
 };
 

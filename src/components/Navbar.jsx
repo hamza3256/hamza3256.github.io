@@ -82,6 +82,7 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </Nav.Link>
           )}
+        
         </Nav>
       </Navbar.Collapse>
     </Navbar>
