@@ -17,7 +17,7 @@ const Experience = () => {
 					className="vertical-timeline-element--work"
 					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-					date="Oct 2021 - Nov 2021"
+					date="Oct 2021 — Nov 2021"
 					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
@@ -32,7 +32,7 @@ const Experience = () => {
 					className="vertical-timeline-element--work"
 					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-					date="Oct 2021 - Nov 2021"
+					date="Jun 2021 — Aug 2021"
 					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
@@ -55,7 +55,7 @@ const Experience = () => {
 					className="vertical-timeline-element--education"
 					contentStyle={{ background: 'rgb(0,0,128)', color: '#fff' }}
 					contentArrowStyle={{ borderRight: '7px solid  rgb(0,0,128)' }}
-					date="2012-2014"
+					date="Sep 2017 — Aug 2020"
 					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 					icon={<SchoolIcon />}
 				  >
