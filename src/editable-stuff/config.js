@@ -65,7 +65,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "hamza3256", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["MERN-eCommerce", "django_auction_project"],
 };
 
 // Leadership SECTION
@@ -97,24 +97,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 95 },
+    { name: "Java", value: 90 },
+    { name: "JavaScript", value: 70 },
+    { name: "SQL", value: 80 },
+    { name: "Algorithms & Data Structures", value: 90 },
+    { name: "React", value: 75 },
+    { name: "HTML/CSS", value: 75 },
+    { name: "C#", value: 70 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Teamwork and collaboration", value: 90 },
+    { name: "Approachability and Helpfulness", value: 95 },
+    { name: "Problem Solving", value: 95 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Confidence", value: 85 },
+    { name: "Open-mindedness and adaptability", value: 90 },
+    { name: "Creativity", value: 85 },
+    { name: "Patience", value: 80 },
   ],
 };
 
@@ -128,18 +128,22 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
+      companylogo: require("../assets/img/mthree.png"),
+      date: "October —  November",
+      description:
+        "• Underwent six weeks training in Full Stack Engineering (Java).",
     },
     {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
+      role: "Software Engineer",
+      companylogo: require("../assets/img/AJ-icon.jpeg"),
+      date: "June 2021 — August 2021",
+      description:
+        "• Created separate and restricted admin access for inventory management.\n• Implemented different access levels to handle orders and customer interaction which sped up the payment process by 70%.",
     },
   ],
 };

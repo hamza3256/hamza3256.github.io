@@ -8,6 +8,7 @@ import axios from "axios";
 const dummyProject = {
   name: null,
   description: null,
+  homepage: null,
   svn_url: null,
   stargazers_count: null,
   languages_url: null,
@@ -42,6 +43,16 @@ const Project = ({ heading, username, length, specfic }) => {
       }
       // setting projectArray
       // TODO: remove the duplication.
+      repoList = repoList.reverse();
+      for(let i = 0; i<repoList.length; i++) {
+        if(repoList[i].name === "django_auction_project") {
+          var temp = repoList[i];
+          repoList.splice(i, 1);
+          repoList.splice(repoList.length-1, 0, temp);
+          break;
+        }
+      }
+      
       setProjectsArray(repoList);
     } catch (error) {
       console.error(error.message);

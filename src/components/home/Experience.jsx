@@ -1,30 +1,84 @@
-import React from 'react';
-import ExperienceCard from "./ExperienceCard";
-import {
-    Container,
-    Row,
-    Jumbotron
-} from "react-bootstrap";
+import React, { useState, useEffect, useCallback } from "react";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import './../../style/style.min.css';
+import SchoolIcon from '@material-ui/icons/School';
+import StarIcon from '@material-ui/icons/Star';
+import WorkIcon from '@material-ui/icons/Work';
+import Container from "react-bootstrap/Container";
+import Jumbotron from "react-bootstrap/Jumbotron";
 
-const Experience = ({experiences}) => {
-    return (  
-        <section className="section">
-            <Container>
-                <Jumbotron fluid className="bg-white">
-                    <h2 className="display-4 mb-5 text-center">
-                        {experiences.heading}
-                    </h2>
-                    <Row>
-                        {
-                            experiences.data.map(data => {
-                                return <ExperienceCard key={data.company} data={data} />
-                            })
-                        }
-                    </Row>
-                </Jumbotron>
-            </Container>
-        </section>
-    );
-}
- 
+const Experience = () => {
+ return (
+	 <Jumbotron fluid id="experience" className="bg-light m-0">
+		<Container className="p-7">
+			 <VerticalTimeline>
+				
+				  <VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					date="Oct 2021 - Nov 2021"
+					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					icon={<WorkIcon />}
+				  >
+					<h3 className="vertical-timeline-element-title">Alumni Software Engineer</h3>
+					<h4 className="vertical-timeline-element-subtitle">MThree <span style={{float: 'right'}}>London, UK</span></h4>
+					<p>
+                        Underwent six‑weeks training in Full Stack Engineering (Java).
+					</p>
+				  </VerticalTimelineElement>
+				  
+				  <VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					date="Oct 2021 - Nov 2021"
+					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					icon={<WorkIcon />}
+				  >
+					<h3 className="vertical-timeline-element-title"> Full Stack Developer </h3>
+                    <h4 className="vertical-timeline-element-subtitle" >Freelance <span style={{float: 'right'}}>London, UK</span></h4>	
+		
+					<p>
+                        <li>
+                        Created separate and restricted admin access for inventory management
+                        </li>
+                        <li>
+                        Implemented different access levels to handle orders and customer interaction which sped up the payment process by 70%
+                        </li>
+					</p>
+				  </VerticalTimelineElement>
+				  
+			
+				  
+				   <VerticalTimelineElement
+					className="vertical-timeline-element--education"
+					contentStyle={{ background: 'rgb(0,0,128)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(0,0,128)' }}
+					date="2012-2014"
+					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+					icon={<SchoolIcon />}
+				  >
+					<h3 className="vertical-timeline-element-title">BSc Computer Science
+					</h3><h4 className="vertical-timeline-element-subtitle">Queen Mary University of London</h4>					
+					<p>
+                    1st Class Hons  
+					</p>
+				  </VerticalTimelineElement>
+				  
+				  				  
+		
+				  
+				  
+				  
+				  <VerticalTimelineElement
+					iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+					icon={<StarIcon />}
+				  />
+			</VerticalTimeline>
+		</Container>
+	</Jumbotron>
+
+)}
+
 export default Experience;
