@@ -48,6 +48,30 @@ const Experience = () => {
                         </li>
 					</p>
 				  </VerticalTimelineElement>
+
+				  <VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					date="Aug 2020 — Mar 2021"
+					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					icon={<WorkIcon />}
+				  >
+					<h3 className="vertical-timeline-element-title"> Software Engineer </h3>
+                    <h4 className="vertical-timeline-element-subtitle" > Netwebex <span style={{float: 'right'}}>Sahiwal, Pakistan</span></h4>	
+		
+					<p>
+                        <li>
+                        Developed user interface using ReactJs for several Amazon clients’ landing pages
+                        </li>
+                        <li>
+                        Interacted with Testing Team and Business Analysts to fix issues that were reported
+                        </li>
+						<li>
+						Worked with RESTful web services to integrate between server side to client side
+                        </li>
+					</p>
+				  </VerticalTimelineElement>
 				  
 			
 				  

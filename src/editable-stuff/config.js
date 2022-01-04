@@ -52,7 +52,7 @@ const about = {
   message:
     "I am a computer science graduate from Queen Mary University of London with a 1st Class. As a highly adaptable and competent software engineer, I am proficient in Python, Java, and frontend languages and frameworks (HTML, CSS, JavaScript, React) with varying experiences in MongoDb, Django, MySQL, and C#. I have a keen interest in software engineering and I'm enthused by the prospect of becoming a part of such a dynamic and stimulating field. I am confident the skills and determination that have brought me success in the past would stand me in good stead for the exciting challenges ahead.",
   resume:
-    "https://drive.google.com/file/d/1m0sAthHeB0u496j_pbqrA7WBYhP6gX-e/view?usp=sharing",
+    "https://drive.google.com/file/d/1Hym78wwYGmhmsWsLc4xlIAyVniFc0zA1/view?usp=sharing",
 };
 
 // PROJECTS SECTION

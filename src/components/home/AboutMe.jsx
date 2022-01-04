@@ -1,5 +1,4 @@
 import React from "react";
-import Pdf from "../../editable-stuff/Resume__Muhammad_Hamza.pdf";
 import myProf from "../../editable-stuff/myProf.jpg"
 import axios from "axios";
 
@@ -38,10 +37,10 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <div className="col-5 d-none d-lg-block align-self-center">
             {showPic && (
               <img
-                className="border border-secondary rounded-circle"
+                className="border border-secondary rounded"
                 src={myProf}
                 alt="profilepicture"
-               
+              
               />
             )}
           </div>
@@ -53,7 +52,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               <p className="lead text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
-                  href={Pdf}
+                  href="https://drive.google.com/file/d/1Hym78wwYGmhmsWsLc4xlIAyVniFc0zA1/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
