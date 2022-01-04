@@ -64,8 +64,15 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "hamza3256", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: ["MERN-eCommerce", "django_auction_project"],
+  reposLength: 0,
+  specificRepos: [
+    "MERN-eCommerce",
+    "django_auction_project",
+    "SudokuSolver",
+    "xborder",
+    "FPS-MULTI",
+    "Image-processor",
+  ],
 };
 
 // Leadership SECTION
@@ -123,7 +130,7 @@ const getInTouch = {
   show: true,
   heading: "Contact Me",
   message:
-    "I am open to full-time opportunities in Software Engineering. If you have any questions, or just want to say hello, feel free to use the contact form below or my email address: ",
+    "I am open to full-time opportunities in Software Engineering. If you have any questions, or just want to say hello, feel free to contact me using the form below or my email address: ",
   email: "hamzaquant@gmail.com",
 };
 
