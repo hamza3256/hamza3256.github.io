@@ -43,7 +43,7 @@ const Project = ({ heading, username, length, specfic }) => {
       }
       // setting projectArray
       // TODO: remove the duplication.
-      repoList = repoList.reverse();
+      
       for(let i = 0; i<repoList.length; i++) {
         if(repoList[i].name === "django_auction_project") {
           var temp = repoList[i];
