@@ -22,7 +22,7 @@ const Experience = () => {
 					icon={<WorkIcon />}
 				  >
 					<h3 className="vertical-timeline-element-title">Alumni Software Engineer</h3>
-					<h4 className="vertical-timeline-element-subtitle">MThree <span style={{float: 'right'}}>London, UK</span></h4>
+					<h5 className="vertical-timeline-element-subtitle">MThree <span style={{float: 'right'}}>London, UK</span></h5>
 					<p>
                         Underwent six‑weeks training in Full Stack Engineering (Java).
 					</p>
@@ -36,8 +36,8 @@ const Experience = () => {
 					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
-					<h3 className="vertical-timeline-element-title"> Full Stack Developer </h3>
-                    <h4 className="vertical-timeline-element-subtitle" >Freelance <span style={{float: 'right'}}>London, UK</span></h4>	
+					<h3 className="vertical-timeline-element-title"> Software Engineer </h3>
+                    <h5 className="vertical-timeline-element-subtitle" >Freelance<span style={{float: 'right'}}>London, UK</span></h5>	
 		
 					<p>
                         <li>
@@ -57,18 +57,18 @@ const Experience = () => {
 					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
-					<h3 className="vertical-timeline-element-title"> Software Engineer </h3>
-                    <h4 className="vertical-timeline-element-subtitle" > Netwebex <span style={{float: 'right'}}>Sahiwal, Pakistan</span></h4>	
+					<h3 className="vertical-timeline-element-title">Junior Software Developer </h3>
+                    <h5 className="vertical-timeline-element-subtitle" >Global Digital Consultants<span style={{float: 'right'}}>Sahiwal, Pakistan</span></h5>	
 		
 					<p>
                         <li>
-                        Developed user interface using ReactJs for several Amazon clients’ landing pages
+                        Worked on a mix of maintenance and enhancements on web applications
                         </li>
                         <li>
-                        Interacted with Testing Team and Business Analysts to fix issues that were reported
+                        Worked cross‑functionally to convert business needs into technical specifications
                         </li>
 						<li>
-						Worked with RESTful web services to integrate between server side to client side
+						Interacted with testing team and business analysts to fix issues that were reported
                         </li>
 					</p>
 				  </VerticalTimelineElement>
@@ -84,7 +84,7 @@ const Experience = () => {
 					icon={<SchoolIcon />}
 				  >
 					<h3 className="vertical-timeline-element-title">BSc Computer Science
-					</h3><h4 className="vertical-timeline-element-subtitle">Queen Mary University of London</h4>					
+					</h3><h5 className="vertical-timeline-element-subtitle">Queen Mary University of London</h5>					
 					<p>
                     1st Class Hons  
 					</p>
