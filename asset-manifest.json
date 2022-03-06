@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hamza3256.github.io/static/css/main.a3a15821.chunk.css",
-    "main.js": "/hamza3256.github.io/static/js/main.d90a1574.chunk.js",
-    "main.js.map": "/hamza3256.github.io/static/js/main.d90a1574.chunk.js.map",
+    "main.js": "/hamza3256.github.io/static/js/main.6f8bbe50.chunk.js",
+    "main.js.map": "/hamza3256.github.io/static/js/main.6f8bbe50.chunk.js.map",
     "runtime-main.js": "/hamza3256.github.io/static/js/runtime-main.ead79e63.js",
     "runtime-main.js.map": "/hamza3256.github.io/static/js/runtime-main.ead79e63.js.map",
     "static/css/2.655bca66.chunk.css": "/hamza3256.github.io/static/css/2.655bca66.chunk.css",
     "static/js/2.31cc2c79.chunk.js": "/hamza3256.github.io/static/js/2.31cc2c79.chunk.js",
     "static/js/2.31cc2c79.chunk.js.map": "/hamza3256.github.io/static/js/2.31cc2c79.chunk.js.map",
     "index.html": "/hamza3256.github.io/index.html",
-    "precache-manifest.630163cf14c194159318c55513f60172.js": "/hamza3256.github.io/precache-manifest.630163cf14c194159318c55513f60172.js",
+    "precache-manifest.811a4b780d5b0796966be483fe624e2b.js": "/hamza3256.github.io/precache-manifest.811a4b780d5b0796966be483fe624e2b.js",
     "service-worker.js": "/hamza3256.github.io/service-worker.js",
     "static/css/2.655bca66.chunk.css.map": "/hamza3256.github.io/static/css/2.655bca66.chunk.css.map",
     "static/css/main.a3a15821.chunk.css.map": "/hamza3256.github.io/static/css/main.a3a15821.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.655bca66.chunk.css",
     "static/js/2.31cc2c79.chunk.js",
     "static/css/main.a3a15821.chunk.css",
-    "static/js/main.d90a1574.chunk.js"
+    "static/js/main.6f8bbe50.chunk.js"
   ]
 }
