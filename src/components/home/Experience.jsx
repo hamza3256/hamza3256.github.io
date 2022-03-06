@@ -21,7 +21,7 @@ const Experience = () => {
 					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
-					<h3 className="vertical-timeline-element-title">Alumni Software Engineer</h3>
+					<h3 className="vertical-timeline-element-title">Software Engineer</h3>
 					<h5 className="vertical-timeline-element-subtitle">MThree <span style={{float: 'right'}}>London, UK</span></h5>
 					<p>
                         Underwent six‑weeks training in Full Stack Engineering (Java).
@@ -40,12 +40,9 @@ const Experience = () => {
                     <h5 className="vertical-timeline-element-subtitle" >Freelance<span style={{float: 'right'}}>London, UK</span></h5>	
 		
 					<p>
-                        <li>
-                        Created separate and restricted admin access for inventory management
-                        </li>
-                        <li>
-                        Implemented different access levels to handle orders and customer interaction which sped up the payment process by 70%
-                        </li>
+					<li>Implemented frontend using React and backend using Node.js, express, MongoDB, and mongoose</li>
+					<li>Created separate and restricted admin access using JWT, for inventory management</li>
+					<li>Implemented different access levels to handle orders and customer interaction which sped up the payment process by 70%</li>
 					</p>
 				  </VerticalTimelineElement>
 
@@ -62,14 +59,16 @@ const Experience = () => {
 		
 					<p>
                         <li>
-                        Worked on a mix of maintenance and enhancements on web applications
-                        </li>
+						Worked on a mix of maintenance and enhancements using React and Node.js on web applications</li>
                         <li>
-                        Worked cross‑functionally to convert business needs into technical specifications
+                        Created the user experience that fetched, parsed, and formatted analytic data, and relayed it into React components
+                        </li>
+						<li>
+						Worked cross-functionally to convert business needs into technical specifications
                         </li>
 						<li>
 						Interacted with testing team and business analysts to fix issues that were reported
-                        </li>
+						</li>
 					</p>
 				  </VerticalTimelineElement>
 				  
@@ -86,7 +85,7 @@ const Experience = () => {
 					<h3 className="vertical-timeline-element-title">BSc Computer Science
 					</h3><h5 className="vertical-timeline-element-subtitle">Queen Mary University of London</h5>					
 					<p>
-                    1st Class Hons  
+                    Grade achieved: First Class Honours
 					</p>
 				  </VerticalTimelineElement>
 				  
