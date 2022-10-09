@@ -6,7 +6,7 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors:
-    "#2d2d54, #4486d4, #0a8a7a, #d0d404, #e62538, #753b8c, #ecf0f1",
+    "#81D4FA, #4486d4, #0a8a7a, #8a2f38, #c6cdcf",
   firstName: "Muhammad",
   middleName: "",
   lastName: "Hamza",
@@ -51,7 +51,7 @@ const about = {
   imageLink: require("../editable-stuff/myProf.jpg"),
   imageSize: 375,
   message:
-    "I am a software engineer, and a computer science graduate from Queen Mary University of London with a 1st Class. As a highly adaptable and competent software engineer, I am proficient in Python, Java, and frontend languages and frameworks (HTML, CSS, JavaScript, React) with varying experiences in MongoDB, Django, MySQL, and C#. I have a keen interest in software engineering and I'm enthused by the prospect of becoming a part of such a dynamic and stimulating field. I am confident the skills and determination that have brought me success in the past would stand me in good stead for the exciting challenges ahead.",
+    "I am a software engineer at Eiger Trading, a FinTech firm specialising in brokerage and trader faciliation services for the Islamic financial market. As a highly adaptable and competent programmer, I am proficient in Python, Java, and frontend languages and frameworks (HTML, CSS, JavaScript, React) with varying experiences in MongoDB, PostgreSQL, Django, and C#. I have a keen interest in backend software engineering and computational finance (HFT). I'm enthused by the prospect of being part of such a dynamic and stimulating field. I am confident the skills and determination that have brought me success in the past would stand me in good stead for the exciting challenges ahead.",
   resume:
     "https://drive.google.com/file/d/1Hym78wwYGmhmsWsLc4xlIAyVniFc0zA1/view?usp=sharing",
 };

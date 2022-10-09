@@ -10,6 +10,7 @@
     "url": "https://github.com/hamza3256"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.2",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
@@ -27,6 +28,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
+    "react-social-icons": "^5.15.0",
     "react-toastify": "^8.1.0",
     "react-typist": "^2.0.5",
     "react-vertical-timeline-component": "^3.5.2",

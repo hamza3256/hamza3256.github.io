@@ -1,12 +1,13 @@
 import React from "react";
 import myProf from "../../editable-stuff/myProf.jpg"
 import axios from "axios";
+import Jumbotron from "react-bootstrap/Jumbotron";
 
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
 
-const AboutMe = ({ heading, message, link, imgSize, resume }) => {
+const AboutMe = ({heading, message, link, imgSize, resume }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
@@ -31,8 +32,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   };
 
   return (
-    
-    <div id="aboutme stars" className="jumbotron jumbotron-fluid m-0">
+      <div id="aboutme stars" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid">
         <div className="row">
           <div className="col-5 d-none d-lg-block align-self-center">

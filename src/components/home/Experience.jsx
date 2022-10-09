@@ -12,19 +12,52 @@ const Experience = () => {
 	 <Jumbotron fluid id="experience" className="bg-light m-0">
 		<Container className="p-7">
 			 <VerticalTimeline>
+				<VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					date="Mar 2022 — Present"
+					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					icon={<WorkIcon />}
+				  >
+					<h3 className="vertical-timeline-element-title">Software Engineer</h3>
+					<h5 className="vertical-timeline-element-subtitle">Eiger Trading<span style={{float: 'right'}}>London, UK</span></h5>
+					<p>
+                        <li>
+						Developed new features and maintain existing codebase
+						</li>
+						<li>
+						Involved in all stages of the product life-cycle, taking ownership of problems and delivering stable and reliable solutions
+						</li>
+						<li>
+						Designed and planned improvements on the existing system architecture to enhance resiliency and availability
+						</li>
+						<li>
+						Encouraged proactive communication and technical conversations between development team and traders and assisting them
+						</li>
+						<li>
+						Trained and assisted junior developers with fixing current issues and implementing new features
+						</li>
+					</p>
+				  </VerticalTimelineElement>
 				
 				  <VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-					date="Oct 2021 — Nov 2021"
+					date="Oct 2021 — Jan 2022"
 					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
-					<h3 className="vertical-timeline-element-title">Software Engineer</h3>
-					<h5 className="vertical-timeline-element-subtitle">MThree <span style={{float: 'right'}}>London, UK</span></h5>
+					<h3 className="vertical-timeline-element-title">Junior Software Engineer</h3>
+					<h5 className="vertical-timeline-element-subtitle">Wiley Edge<span style={{float: 'right'}}>London, UK</span></h5>
 					<p>
-                        Underwent six‑weeks training in Full Stack Engineering (Java).
+						<li>
+						Full Stack Java Engineering training for 5 weeks
+						</li>
+						<li>
+						Led and presented a Spring MVC project
+						</li>
 					</p>
 				  </VerticalTimelineElement>
 				  
@@ -36,13 +69,13 @@ const Experience = () => {
 					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
-					<h3 className="vertical-timeline-element-title"> Software Engineer </h3>
+					<h3 className="vertical-timeline-element-title">Full Stack Developer </h3>
                     <h5 className="vertical-timeline-element-subtitle" >Freelance<span style={{float: 'right'}}>London, UK</span></h5>	
 		
 					<p>
 					<li>Implemented frontend using React and backend using Node.js, express, MongoDB, and mongoose</li>
 					<li>Created separate and restricted admin access using JWT, for inventory management</li>
-					<li>Implemented different access levels to handle orders and customer interaction which sped up the payment process by 70%</li>
+					<li>Implemented access levels to handle orders and customer interaction which sped up the payment process by 70%</li>
 					</p>
 				  </VerticalTimelineElement>
 
@@ -59,15 +92,15 @@ const Experience = () => {
 		
 					<p>
                         <li>
-						Worked on a mix of maintenance and enhancements using React and Node.js on web applications</li>
+						Maintained and worked on new features using React and Node.js</li>
                         <li>
-                        Created the user experience that fetched, parsed, and formatted analytic data, and relayed it into React components
+                        Created user experience to fetch, parse, and format analytical data, and relay it into React components
                         </li>
 						<li>
 						Worked cross-functionally to convert business needs into technical specifications
                         </li>
 						<li>
-						Interacted with testing team and business analysts to fix issues that were reported
+						Interacted with testing team and business analysts to fix reported issues
 						</li>
 					</p>
 				  </VerticalTimelineElement>
