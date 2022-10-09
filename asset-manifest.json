@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/hamza3256.github.io/static/css/main.a3a15821.chunk.css",
-    "main.js": "/hamza3256.github.io/static/js/main.ec092f66.chunk.js",
-    "main.js.map": "/hamza3256.github.io/static/js/main.ec092f66.chunk.js.map",
-    "runtime-main.js": "/hamza3256.github.io/static/js/runtime-main.ead79e63.js",
-    "runtime-main.js.map": "/hamza3256.github.io/static/js/runtime-main.ead79e63.js.map",
-    "static/css/2.655bca66.chunk.css": "/hamza3256.github.io/static/css/2.655bca66.chunk.css",
-    "static/js/2.c4e7b3ef.chunk.js": "/hamza3256.github.io/static/js/2.c4e7b3ef.chunk.js",
-    "static/js/2.c4e7b3ef.chunk.js.map": "/hamza3256.github.io/static/js/2.c4e7b3ef.chunk.js.map",
-    "index.html": "/hamza3256.github.io/index.html",
-    "precache-manifest.e4de70aa343804422bccf37bad8942fa.js": "/hamza3256.github.io/precache-manifest.e4de70aa343804422bccf37bad8942fa.js",
-    "service-worker.js": "/hamza3256.github.io/service-worker.js",
-    "static/css/2.655bca66.chunk.css.map": "/hamza3256.github.io/static/css/2.655bca66.chunk.css.map",
-    "static/css/main.a3a15821.chunk.css.map": "/hamza3256.github.io/static/css/main.a3a15821.chunk.css.map",
-    "static/js/2.c4e7b3ef.chunk.js.LICENSE.txt": "/hamza3256.github.io/static/js/2.c4e7b3ef.chunk.js.LICENSE.txt",
-    "static/media/AJ-icon.jpeg": "/hamza3256.github.io/static/media/AJ-icon.7b8a5db9.jpeg",
-    "static/media/mthree.png": "/hamza3256.github.io/static/media/mthree.073c863f.png",
-    "static/media/myProf.jpg": "/hamza3256.github.io/static/media/myProf.d78ebf92.jpg"
+    "main.css": "/muhammadhamza.dev/static/css/main.a3a15821.chunk.css",
+    "main.js": "/muhammadhamza.dev/static/js/main.766ce99f.chunk.js",
+    "main.js.map": "/muhammadhamza.dev/static/js/main.766ce99f.chunk.js.map",
+    "runtime-main.js": "/muhammadhamza.dev/static/js/runtime-main.325e4a89.js",
+    "runtime-main.js.map": "/muhammadhamza.dev/static/js/runtime-main.325e4a89.js.map",
+    "static/css/2.655bca66.chunk.css": "/muhammadhamza.dev/static/css/2.655bca66.chunk.css",
+    "static/js/2.c4e7b3ef.chunk.js": "/muhammadhamza.dev/static/js/2.c4e7b3ef.chunk.js",
+    "static/js/2.c4e7b3ef.chunk.js.map": "/muhammadhamza.dev/static/js/2.c4e7b3ef.chunk.js.map",
+    "index.html": "/muhammadhamza.dev/index.html",
+    "precache-manifest.a2e047e91b1349222f4d7cd742bc0c75.js": "/muhammadhamza.dev/precache-manifest.a2e047e91b1349222f4d7cd742bc0c75.js",
+    "service-worker.js": "/muhammadhamza.dev/service-worker.js",
+    "static/css/2.655bca66.chunk.css.map": "/muhammadhamza.dev/static/css/2.655bca66.chunk.css.map",
+    "static/css/main.a3a15821.chunk.css.map": "/muhammadhamza.dev/static/css/main.a3a15821.chunk.css.map",
+    "static/js/2.c4e7b3ef.chunk.js.LICENSE.txt": "/muhammadhamza.dev/static/js/2.c4e7b3ef.chunk.js.LICENSE.txt",
+    "static/media/AJ-icon.jpeg": "/muhammadhamza.dev/static/media/AJ-icon.7b8a5db9.jpeg",
+    "static/media/mthree.png": "/muhammadhamza.dev/static/media/mthree.073c863f.png",
+    "static/media/myProf.jpg": "/muhammadhamza.dev/static/media/myProf.d78ebf92.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ead79e63.js",
+    "static/js/runtime-main.325e4a89.js",
     "static/css/2.655bca66.chunk.css",
     "static/js/2.c4e7b3ef.chunk.js",
     "static/css/main.a3a15821.chunk.css",
-    "static/js/main.ec092f66.chunk.js"
+    "static/js/main.766ce99f.chunk.js"
   ]
 }
