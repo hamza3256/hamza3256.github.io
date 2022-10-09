@@ -52,7 +52,7 @@ const Project = ({ heading, username, length, specfic }) => {
           break;
         }
       }
-      
+    
       setProjectsArray(repoList);
     } catch (error) {
       console.error(error.message);

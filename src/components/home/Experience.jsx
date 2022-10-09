@@ -14,10 +14,10 @@ const Experience = () => {
 			 <VerticalTimeline>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					contentStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 64, 243)' }}
 					date="Mar 2022 — Present"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					iconStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
 					<h3 className="vertical-timeline-element-title">Software Engineer</h3>
@@ -43,10 +43,10 @@ const Experience = () => {
 				
 				  <VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					contentStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 64, 243)' }}
 					date="Oct 2021 — Jan 2022"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					iconStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
 					<h3 className="vertical-timeline-element-title">Junior Software Engineer</h3>
@@ -63,10 +63,10 @@ const Experience = () => {
 				  
 				  <VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					contentStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 64, 243)' }}
 					date="Jun 2021 — Aug 2021"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					iconStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
 					<h3 className="vertical-timeline-element-title">Full Stack Developer </h3>
@@ -81,10 +81,10 @@ const Experience = () => {
 
 				  <VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+					contentStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 64, 243)' }}
 					date="Aug 2020 — Mar 2021"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					iconStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
 					icon={<WorkIcon />}
 				  >
 					<h3 className="vertical-timeline-element-title">Junior Software Developer </h3>
@@ -109,24 +109,25 @@ const Experience = () => {
 				  
 				   <VerticalTimelineElement
 					className="vertical-timeline-element--education"
-					contentStyle={{ background: 'rgb(0,0,128)', color: '#fff' }}
-					contentArrowStyle={{ borderRight: '7px solid  rgb(0,0,128)' }}
+					contentStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
+					contentArrowStyle={{ borderRight: '7px solid  rgb(33, 64, 243)' }}
 					date="Sep 2017 — Aug 2020"
-					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+					iconStyle={{ background: 'rgb(33, 64, 243)', color: '#fff' }}
 					icon={<SchoolIcon />}
 				  >
-					<h3 className="vertical-timeline-element-title">BSc Computer Science
+					<h3 className="vertical-timeline-element-title">BSc (Hons) Computer Science
 					</h3><h5 className="vertical-timeline-element-subtitle">Queen Mary University of London</h5>					
 					<p>
-                    Grade achieved: First Class Honours
+						<li>
+						Grade achieved: First Class Honours; <b>4.0 GPA</b>
+						</li>
+						<li>
+						Awarded<i>Deputy Principal's Award</i>, recognising academic excellence
+						</li>
+					
 					</p>
 				  </VerticalTimelineElement>
-				  
-				  				  
-		
-				  
-				  
-				  
+
 				  <VerticalTimelineElement
 					iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
 					icon={<StarIcon />}

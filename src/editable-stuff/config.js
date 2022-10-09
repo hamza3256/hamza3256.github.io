@@ -6,7 +6,7 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors:
-    "#81D4FA, #4486d4, #0a8a7a, #8a2f38, #c6cdcf",
+    "#5DBEC2, #4486d4, #0a8a7a, #8a2f38, #c6cdcf",
   firstName: "Muhammad",
   middleName: "",
   lastName: "Hamza",
@@ -64,16 +64,16 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hamza3256", //i.e."johnDoe12Gh"
+  gitHubUsername: "hamza3256",
   reposLength: 0,
   specificRepos: [
-    "chess",
     "MERN-eCommerce",
     "chessAI",
-    "xborder",
+    "Image-processor",
     "SudokuSolver",
     "FPS-MULTI",
     "cool-compiler",
+    "django_auction_project"
   ],
 };
 
