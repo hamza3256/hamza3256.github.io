@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c10f95df99bc3b340281902f8b299b55",
+    "revision": "e528f8c6a10311f6e7eb73ff34907fff",
     "url": "/hamza3256.github.io/index.html"
   },
   {
-    "revision": "57b04a4c322c538e02e2",
+    "revision": "525b201df3902be76be8",
     "url": "/hamza3256.github.io/static/css/2.655bca66.chunk.css"
   },
   {
-    "revision": "10b6c601f524f5503c52",
+    "revision": "275d5f6b68b7d2ec0f43",
     "url": "/hamza3256.github.io/static/css/main.a3a15821.chunk.css"
   },
   {
-    "revision": "57b04a4c322c538e02e2",
-    "url": "/hamza3256.github.io/static/js/2.b4c2ec6c.chunk.js"
+    "revision": "525b201df3902be76be8",
+    "url": "/hamza3256.github.io/static/js/2.c4e7b3ef.chunk.js"
   },
   {
     "revision": "9efecc6e366a89e935d3722c67df4853",
-    "url": "/hamza3256.github.io/static/js/2.b4c2ec6c.chunk.js.LICENSE.txt"
+    "url": "/hamza3256.github.io/static/js/2.c4e7b3ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10b6c601f524f5503c52",
-    "url": "/hamza3256.github.io/static/js/main.4af73279.chunk.js"
+    "revision": "275d5f6b68b7d2ec0f43",
+    "url": "/hamza3256.github.io/static/js/main.5c048fe3.chunk.js"
   },
   {
     "revision": "67a00de495bf7e74992f",
