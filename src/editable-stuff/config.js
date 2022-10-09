@@ -31,19 +31,6 @@ const mainBody = {
   ],
 };
 
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/myProf.jpg"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
   show: true,
@@ -51,7 +38,7 @@ const about = {
   imageLink: require("../editable-stuff/myProf.jpg"),
   imageSize: 375,
   message:
-    "I am a software engineer at Eiger Trading, a FinTech firm specialising in brokerage and trader faciliation services for the Islamic financial market. As a highly adaptable and competent programmer, I am proficient in Python, Java, and frontend languages and frameworks (HTML, CSS, JavaScript, React) with varying experiences in MongoDB, PostgreSQL, Django, and C#. I have a keen interest in backend software engineering and computational finance (HFT). I'm enthused by the prospect of being part of such a dynamic and stimulating field. I am confident the skills and determination that have brought me success in the past would stand me in good stead for the exciting challenges ahead.",
+    "I am a software engineer at Eiger Trading, a FinTech firm specialising in brokerage and trader faciliation services for the Islamic financial market. As a highly adaptable and compentent engineer, I am proficient in Python, Java, and frontend languages and frameworks (HTML, CSS, JavaScript, React) with varying experiences in MongoDB, PostgreSQL, Django, and C#. I have a keen interest in backend software engineering and computational finance (HFT). I'm enthused by the prospect of being part of such a dynamic and stimulating field. I am confident the skills and determination that have brought me success in the past would stand me in good stead for the exciting challenges ahead.",
   resume:
     "https://drive.google.com/file/d/1Hym78wwYGmhmsWsLc4xlIAyVniFc0zA1/view?usp=sharing",
 };
@@ -132,7 +119,7 @@ const getInTouch = {
   show: true,
   heading: "Contact Me",
   message:
-    "I am open to full-time opportunities in Software Engineering. If you have any questions, or just want to say hello, feel free to contact me using the form below or my email address: ",
+    "I am open to full-time opportunities for Software Engineer positions. If you have any questions, or just want to say hello, feel free to contact me using the form below or my email address ",
   email: "hamzaquant@gmail.com",
 };
 
