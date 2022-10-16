@@ -93,7 +93,7 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Résumé
+            Resume
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
