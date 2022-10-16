@@ -88,12 +88,12 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
         
         <Nav.Link
-            className="nav-link lead"
+            className="nav-link lead font-weight-normal"
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
           >
-            Resume
+            Résumé
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
