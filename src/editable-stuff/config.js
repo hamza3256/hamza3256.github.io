@@ -94,7 +94,7 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 95 },
-    { name: "Java", value: 90 },
+    { name: "Java", value: 95 },
     { name: "JavaScript", value: 70 },
     { name: "SQL", value: 80 },
     { name: "Algorithms & Data Structures", value: 90 },
@@ -105,12 +105,12 @@ const skills = {
   softSkills: [
     { name: "Teamwork and collaboration", value: 90 },
     { name: "Approachability and Helpfulness", value: 95 },
-    { name: "Problem Solving", value: 95 },
+    { name: "Problem Solving", value: 98 },
     { name: "Empathy", value: 90 },
-    { name: "Confidence", value: 85 },
-    { name: "Open-mindedness and adaptability", value: 90 },
-    { name: "Creativity", value: 85 },
-    { name: "Patience", value: 80 },
+    { name: "Confidence", value: 93 },
+    { name: "Open-mindedness and adaptability", value: 85 },
+    { name: "Creativity", value: 90 },
+    { name: "Patience", value: 88 },
   ],
 };
 
