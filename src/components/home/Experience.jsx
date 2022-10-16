@@ -92,7 +92,7 @@ const Experience = () => {
 		
 					<p>
                         <li>
-						Maintained and worked on new features using React and Node.js</li>
+						Maintained current codebase and developed new features using React and Node.js</li>
                         <li>
                         Created user experience to fetch, parse, and format analytical data, and relay it into React components
                         </li>
@@ -122,7 +122,7 @@ const Experience = () => {
 						Grade achieved: First Class Honours; <b>4.0 GPA</b>
 						</li>
 						<li>
-						Awarded<i>Deputy Principal's Award</i>, recognising academic excellence
+						Awarded <a style={{color:"inherit"}} href="https://drive.google.com/file/d/1egFECsFQ_UvgAp9ZaeFgAPfrED07xD2F/view?usp=sharing"><i>'Deputy Principal's Award'</i></a>, recognising academic excellence
 						</li>
 					
 					</p>

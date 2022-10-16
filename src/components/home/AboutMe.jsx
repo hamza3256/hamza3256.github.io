@@ -1,7 +1,6 @@
 import React from "react";
 import myProf from "../../editable-stuff/myProf.jpg"
 import axios from "axios";
-import Jumbotron from "react-bootstrap/Jumbotron";
 
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/

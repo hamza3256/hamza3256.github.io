@@ -16,6 +16,13 @@ const dummyProject = {
 };
 const API = "https://api.github.com";
 
+fetch('https://api.github.com/user', {
+    headers: {
+        'Authorization': 'Basic ' + btoa('hamza3256:' + process.env.GITHUB_SECRET)
+    }
+});
+
+
 const Project = ({ heading, username, length, specfic }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
   const specficReposAPI = `${API}/repos/${username}`;
