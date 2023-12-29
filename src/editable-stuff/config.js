@@ -41,6 +41,8 @@ const about = {
     "I am a software engineer at Eiger Trading, a FinTech firm specialising in brokerage and trader faciliation services for the Islamic financial market. As a highly adaptable and compentent engineer, I am proficient in Python, Java, and frontend languages and frameworks (HTML, CSS, JavaScript, React) with varying experiences in MongoDB, PostgreSQL, Django, and C#. I have a keen interest in backend software engineering and computational finance (HFT). I'm enthused by the prospect of being part of such a dynamic and stimulating field. I am confident the skills and determination that have brought me success in the past would stand me in good stead for the exciting challenges ahead.",
   resume:
     "https://drive.google.com/file/d/1Hym78wwYGmhmsWsLc4xlIAyVniFc0zA1/view?usp=sharing",
+  CV: 
+    "https://drive.google.com/file/d/1GLokV6mnT7REA9lBYqjVBO0XZCLsHCNE/view?usp=sharing"
 };
 
 // PROJECTS SECTION

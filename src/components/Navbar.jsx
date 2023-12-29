@@ -95,6 +95,14 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </Nav.Link>
+          <Nav.Link
+            className="nav-link lead font-weight-normal"
+            href={about.CV}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            CV
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
